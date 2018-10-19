@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<!DOCTYPE mapper
+ PUBLIC "-//mybatis.org//DTD Mapper 3.0//EN"
+"http://mybatis.org/dtd/mybatis-3-mapper.dtd">
+<mapper namespace="org.dubbo.api.dao.AuthDao">
+
+    <select id="getAuthTokenBean" parameterType="java.lang.String" resultType="org.dubbo.pojo.bean.auth.AuthTokenBean">
+        select *
+        from AUTH_TOKEN
+        where status = '0'
+        and to_char(starttime, 'yyyy-mm-dd') &lt;= to_char(SYSDATE, 'yyyy-mm-dd')
+        and to_char(endTime, 'yyyy-mm-dd')  &gt; = to_char(SYSDATE, 'yyyy-mm-dd')
+        and token=#{token}
+    </select>
+
+
+</mapper>

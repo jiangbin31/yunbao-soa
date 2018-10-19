@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="ProjectModuleManager">
+    <modules>
+      <module fileurl="file://$PROJECT_DIR$/dubbo-action/dubbo-action.iml" filepath="$PROJECT_DIR$/dubbo-action/dubbo-action.iml" />
+      <module fileurl="file://$PROJECT_DIR$/dubbo-auth-api/dubbo-auth-api.iml" filepath="$PROJECT_DIR$/dubbo-auth-api/dubbo-auth-api.iml" />
+      <module fileurl="file://$PROJECT_DIR$/dubbo-auth-api-imp/dubbo-auth-api-imp.iml" filepath="$PROJECT_DIR$/dubbo-auth-api-imp/dubbo-auth-api-imp.iml" />
+      <module fileurl="file://$PROJECT_DIR$/dubbo-core/dubbo-core.iml" filepath="$PROJECT_DIR$/dubbo-core/dubbo-core.iml" />
+      <module fileurl="file://$PROJECT_DIR$/dubbo-data-synchronization-api/dubbo-data-synchronization-api.iml" filepath="$PROJECT_DIR$/dubbo-data-synchronization-api/dubbo-data-synchronization-api.iml" />
+      <module fileurl="file://$PROJECT_DIR$/dubbo-data-synchronization-api-imp/dubbo-data-synchronization-api-imp.iml" filepath="$PROJECT_DIR$/dubbo-data-synchronization-api-imp/dubbo-data-synchronization-api-imp.iml" />
+      <module fileurl="file://$PROJECT_DIR$/dubbo-job/dubbo-job.iml" filepath="$PROJECT_DIR$/dubbo-job/dubbo-job.iml" />
+      <module fileurl="file://$PROJECT_DIR$/dubbo-pojo/dubbo-pojo.iml" filepath="$PROJECT_DIR$/dubbo-pojo/dubbo-pojo.iml" />
+      <module fileurl="file://$PROJECT_DIR$/dubbo-userCenter-api/dubbo-userCenter-api.iml" filepath="$PROJECT_DIR$/dubbo-userCenter-api/dubbo-userCenter-api.iml" />
+      <module fileurl="file://$PROJECT_DIR$/dubbo-userCenter-api-imp/dubbo-userCenter-api-imp.iml" filepath="$PROJECT_DIR$/dubbo-userCenter-api-imp/dubbo-userCenter-api-imp.iml" />
+      <module fileurl="file://$PROJECT_DIR$/dubbo-wx-api/dubbo-wx-api.iml" filepath="$PROJECT_DIR$/dubbo-wx-api/dubbo-wx-api.iml" />
+      <module fileurl="file://$PROJECT_DIR$/dubbo-wx-api-imp/dubbo-wx-api-imp.iml" filepath="$PROJECT_DIR$/dubbo-wx-api-imp/dubbo-wx-api-imp.iml" />
+      <module fileurl="file://$PROJECT_DIR$/dubbo-log-api/log-api.iml" filepath="$PROJECT_DIR$/dubbo-log-api/log-api.iml" />
+      <module fileurl="file://$PROJECT_DIR$/dubbo-log-api-imp/log-api-imp.iml" filepath="$PROJECT_DIR$/dubbo-log-api-imp/log-api-imp.iml" />
+      <module fileurl="file://$PROJECT_DIR$/soa-dubbo.iml" filepath="$PROJECT_DIR$/soa-dubbo.iml" />
+    </modules>
+  </component>
+</project>

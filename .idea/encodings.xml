@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="Encoding">
+    <file url="file://$PROJECT_DIR$/dubbo-auth-api" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/dubbo-auth-api-imp" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/dubbo-core" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/dubbo-data-synchronization-api" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/dubbo-data-synchronization-api-imp" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/dubbo-log-api" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/dubbo-log-api-imp" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/dubbo-pojo" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/dubbo-userCenter-api" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/dubbo-userCenter-api-imp" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/dubbo-wx-api" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/dubbo-wx-api-imp" charset="UTF-8" />
+  </component>
+</project>

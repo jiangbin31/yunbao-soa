@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<beans xmlns="http://www.springframework.org/schema/beans" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+	xmlns:dubbo="http://code.alibabatech.com/schema/dubbo"
+	xsi:schemaLocation="http://www.springframework.org/schema/beans       
+    http://www.springframework.org/schema/beans/spring-beans.xsd       
+    http://code.alibabatech.com/schema/dubbo        
+    http://code.alibabatech.com/schema/dubbo/dubbo.xsd">
+	<!-- 提供方应用信息，用于计算依赖关系 -->
+	<dubbo:application name="dubbo_provider" />
+
+	<dubbo:registry address="127.0.0.1:2181" protocol="zookeeper" />
+
+	<dubbo:protocol name="dubbo" port="20665" />
+	<dubbo:provider timeout="7000" />
+
+	<dubbo:service interface="org.dubbo.api.service.LogService" ref="logService"  loadbalance="roundrobin"/>
+	<bean id="logService" class="org.dubbo.api.imp.LogServiceImp"></bean>
+
+	<dubbo:reference id="userService" interface="org.dubbo.api.service.UserService" check="false"/>
+
+	<import resource="classpath*:applicationMybatis.xml" />
+</beans>

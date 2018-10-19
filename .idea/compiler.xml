@@ -1,0 +1,43 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="CompilerConfiguration">
+    <annotationProcessing>
+      <profile name="Maven default annotation processors profile" enabled="true">
+        <sourceOutputDir name="target/generated-sources/annotations" />
+        <sourceTestOutputDir name="target/generated-test-sources/test-annotations" />
+        <outputRelativeToContentRoot value="true" />
+        <module name="dubbo-action" />
+        <module name="dubbo-auth-api" />
+        <module name="dubbo-auth-api-imp" />
+        <module name="dubbo-core" />
+        <module name="dubbo-data-synchronization-api" />
+        <module name="dubbo-data-synchronization-api-imp" />
+        <module name="dubbo-job" />
+        <module name="dubbo-pojo" />
+        <module name="dubbo-userCenter-api" />
+        <module name="dubbo-userCenter-api-imp" />
+        <module name="dubbo-wx-api" />
+        <module name="dubbo-wx-api-imp" />
+        <module name="log-api" />
+        <module name="log-api-imp" />
+      </profile>
+    </annotationProcessing>
+    <bytecodeTargetLevel>
+      <module name="dubbo-action" target="1.8" />
+      <module name="dubbo-auth-api" target="1.8" />
+      <module name="dubbo-auth-api-imp" target="1.8" />
+      <module name="dubbo-core" target="1.8" />
+      <module name="dubbo-data-synchronization-api" target="1.8" />
+      <module name="dubbo-data-synchronization-api-imp" target="1.8" />
+      <module name="dubbo-job" target="1.7" />
+      <module name="dubbo-pojo" target="1.8" />
+      <module name="dubbo-userCenter-api" target="1.8" />
+      <module name="dubbo-userCenter-api-imp" target="1.8" />
+      <module name="dubbo-wx-api" target="1.8" />
+      <module name="dubbo-wx-api-imp" target="1.8" />
+      <module name="log-api" target="1.8" />
+      <module name="log-api-imp" target="1.7" />
+      <module name="soa-dubbo" target="1.5" />
+    </bytecodeTargetLevel>
+  </component>
+</project>
